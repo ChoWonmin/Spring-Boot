@@ -10,4 +10,20 @@ https://spring.io/guides/gs/spring-boot/
 - - Spring Tool Suite (STS)
 - - IntelliJ IDEA
 
+---
+
 ## install
+
+#### Spring Boot CLI
+
+- https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-cli.html
+- https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started-installing-the-cli
+
+```bash
+# Homebrew installs spring to /usr/local/bin.
+brew update
+brew tap pivotal/tap
+brew install springboot
+
+spring --version # check
+```
